@@ -1,0 +1,102 @@
+html,
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: rgb(223, 182, 121);
+}
+
+.main {
+    font-size: 12px;
+    font-style: italic;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.description {
+    flex: 1;
+    padding: 16px;
+    border: 16px double dimgray;
+    
+}
+
+.description2 {
+    flex: 1;
+    padding: 16px;
+    border: 16px double dimgray;
+
+}
+
+.wrapper2 {
+    display: flex;
+}
+
+.beerimg {
+    flex: 1;
+    padding-top: 32px;
+    border-top: 16px double dimgray;
+    align-content: center;
+    text-align: center;
+}
+
+nav {
+    background-color: darkgreen;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px;
+    padding: 22px;
+    overflow: hidden;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    color: antiquewhite;
+    float: left;
+}
+
+li a {
+    display: block;
+    align-content: center;
+    text-align: center;
+    padding: 16px;
+    color: antiquewhite;
+}
+
+li a:hover {
+    background-color: dimgray;
+}
+
+h2 {
+    flex: 1;
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: italic;
+}
+
+h3 {
+    flex: 1;
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: italic;    
+}
+
+h4 {
+    flex: 1;
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: normal;
+}
+
+
