@@ -38,6 +38,18 @@ body {
     display: flex;
 }
 
+.wrapper3 {
+    display: flex;
+}
+
+.wrapper3 #ms {
+    background-color: darkslategray;
+    color: lightseagreen;
+    text-align: center;
+    padding: 200px;
+    flex: 1;
+}
+
 .beerimg {
     flex: 1;
     padding-top: 32px;
@@ -46,12 +58,23 @@ body {
     text-align: center;
 }
 
+.footer {
+    text-align: center;
+}
+
+li .navImg {
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+
 nav {
     background-color: darkgreen;
     text-align: center;
 }
 
 ul {
+    display: flex;
     list-style-type: none;
     margin: 16px;
     padding: 22px;
@@ -61,13 +84,13 @@ ul {
 }
 
 li {
+    margin: auto;
     text-align: center;
     color: antiquewhite;
     float: left;
 }
 
 li a {
-    display: block;
     align-content: center;
     text-align: center;
     padding: 16px;
